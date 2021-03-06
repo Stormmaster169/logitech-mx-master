@@ -1,0 +1,1191 @@
+body {
+  font-family: Roboto;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #2F3132;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2F3132;
+  margin-bottom: 0;
+}
+
+.text_margin {
+  margin-left: 34px;
+  margin-right: 32px;
+}
+
+.text_flow {
+  margin-bottom: 32px;
+  text-align: left;
+  width: 222px;
+}
+
+.text_settings {
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 11px;
+}
+
+.header__logo_white {
+  display: none;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  justify-content: center;
+  padding: 0;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+
+.header-nav__logo-link {
+  display: flex;
+}
+
+.header-nav__logo {
+  margin: auto;
+}
+
+.navbar-light .navbar-toggler {
+  position: absolute;
+  right: 28px;
+  top: 23px;
+  padding: 0;
+  border: 0;
+  height: 20px;
+  width: 31px;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-light .navbar-toggler[aria-expanded="false"] {
+  background-image: url(./assets/images/mobile/menu-burger.png);
+}
+
+.navbar-light .navbar-toggler[aria-expanded="true"] {
+  background-image: url(./assets/images/mobile/Vector\ 8.png);
+  background-position: center;
+  height: 30px;
+}
+
+.navbar-collapse {
+  position: absolute;
+  top: 0;
+  background: #2F3132;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.navbar-nav {
+  display: none;
+}
+
+.navbar-nav__adaptive {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  padding: 148px 26px 208px;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-link__adaptive {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #C4C4C4;
+
+}
+
+.active__adaptive {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.active__adaptive:hover {
+  color: #FFFFFF;
+}
+
+.top {
+  background: #E0E1E2;
+  padding-bottom: 48px;
+}
+
+.top_text-margin {
+  margin-left: 59px;
+  margin-right: 59px;
+}
+
+.top_svg {
+  width: 42px;
+  height: 22px;
+}
+
+.top__img {
+  margin-top: 94px;
+  height: 256px;
+  background-image: url(./assets/images/mobile/MX-Master\ 1.png);
+  background-size: contain;
+  margin-bottom: 41px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top__arrow {
+  margin-top: 40px;
+}
+
+.bluetooth {
+  background: #EDEDED;
+  padding-top: 42px;
+  padding-bottom: 22px;
+}
+
+.bluetooth__icon {
+  margin-bottom: 27px;
+}
+
+.bluetooth__heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  margin-top: 31px;
+}
+
+.bluetooth__img {
+  height: 284px;
+  background-image: url(./assets/images/mobile/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.info {
+  padding-top: 70px;
+  padding-bottom: 63px;
+}
+
+.info__item {
+  border: 1px solid #2F3132;
+  flex-basis: 166px;
+  min-height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__content {
+  margin-top: 30px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.info__heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #2F3132;
+  margin: 28px 0 0;
+}
+
+.carousel-item {
+  height: 65vw;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item[data-item-bg="0"] {
+  background-image: url(./assets/images/mobile/wood.png);
+}
+
+.carousel-item[data-item-bg="1"] {
+  background-image: url(./assets/images/mobile/glass.png);
+}
+
+.carousel-item[data-item-bg="2"] {
+  background-image: url(./assets/images/mobile/linoleum.png);
+}
+
+.carousel-item[data-item-bg="3"] {
+  background-image: url(./assets/images/mobile/cloth.png);
+}
+
+.carousel-item[data-item-bg="4"] {
+  background-image: url(./assets/images/mobile/marble.png);
+}
+
+.info__slider-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__slider_navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators {
+  position: unset;
+  gap: 18px;
+  margin: 18px 0 17px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 34px;
+  width: 34px;
+  border: 0;
+}
+
+.carousel-indicators [data-bs-slide-to="0"] {
+  background-image: url(./assets/images/mobile/wood-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="1"] {
+  background-image: url(./assets/images/mobile/glass-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="2"] {
+  background-image: url(./assets/images/mobile/linoleum-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="3"] {
+  background-image: url(./assets/images/mobile/cloth-texture.png);
+}
+
+.carousel-indicators [data-bs-slide-to="4"] {
+  background-image: url(./assets/images/mobile/marble-texture.png);
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 52px;
+  position: unset;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(./assets/images/mobile/arrow-left.png);
+  width: 13px;
+  height: 25px;
+  background-size: contain;
+}
+
+.carousel-control-next-icon {
+  background-image: url(./assets/images/mobile/arrow-right.png);
+  width: 13px;
+  height: 25px;
+  background-size: contain;
+}
+
+.info__text {
+  margin-left: 67px;
+  margin-right: 61px;
+}
+
+.info__item-heading {
+  margin-bottom: 5px;
+}
+
+.flow {
+  padding-top: 70px;
+  padding-bottom: 218px;
+  background-image: url(./assets/images/mobile/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  background-color: #EDEDED;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.flow__ol {
+  margin-top: 36px;
+  padding-left: 54px;
+}
+
+.settings {
+  padding-top: 70px;
+  background: #EDEDED;
+}
+
+.settings__silder {
+  margin: 35px auto 60px;
+}
+
+.settings-slider_wrapper {
+  height: 405px;
+  background-size: unset;
+}
+
+.carousel-item[data-settings-slider-item-bg="0"] {
+  background-image: url(./assets/images/mobile/f370c2e.png);
+  background-size: contain;
+}
+
+.carousel-item[data-settings-slider-item-bg="1"] {
+  background-image: url(./assets/images/mobile/fecdd75.png);
+}
+
+.carousel-item[data-settings-slider-item-bg="2"] {
+  background-image: url(./assets/images/mobile/b74bcf9.png);
+}
+
+.carousel-item[data-settings-slider-item-bg="3"] {
+  background-image: url(./assets/images/mobile/c075726.png);
+}
+
+.carousel-item[data-settings-slider-item-bg="4"] {
+  background-image: url(./assets/images/mobile/e987ca8.png);
+}
+
+.carousel-item[data-settings-slider-item-bg="5"] {
+  background-image: url(./assets/images/mobile/f8bf6eb.png);
+}
+
+.settings-slider_navigation {
+  margin: 20px 0 0;
+  gap: 15px;
+}
+.settings-slider_navigation [data-settings-btn] {
+  background-image: unset;
+  background-color: #2F3132;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.settings__slider-img {
+  display: none;
+}
+
+.settings__content {
+  background: #C4C4C4;
+  padding: 23px 22px 26px 29px;
+}
+
+.settings__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.mouse__text {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.mouse__img {
+  height: 310px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mouse__img_1 {
+  background-image: url(./assets/images/mobile/image\ 1.jpg);
+}
+
+.mouse__img_2 {
+  background-image: url(./assets/images/mobile/image\ 2.png);
+}
+
+.footer  {
+  background: #2F3132;
+  height: 75px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+  text-align: center;
+  color: #C7C8C8;
+  padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+  .top {
+    padding-bottom: 80px;
+  }
+
+  .top__img {
+    margin-top: 159px;
+    height: 514px;
+    margin-bottom: 124px;
+  }
+
+  .navbar {
+    padding-top: 54px;
+  }
+
+  .navbar-light .navbar-toggler {
+    right: 58px;
+    top: 50px;
+    height: 40px;
+    width: 61px;
+  }
+
+  .navbar-light .navbar-toggler[aria-expanded="false"] {
+    background-image: url(./assets/images/tablet/menu-burger.png);
+  }
+
+  .navbar-light .navbar-toggler[aria-expanded="true"] {
+    background-image: url(./assets/images/tablet/Vector\ 8.png);
+    height: 61px;
+  }
+
+
+  .header__logo {
+    width: 240px;
+  }
+
+  .header-nav__logo {
+    width: 240px;
+  }
+
+  .navbar-collapse {
+    padding-top: 64px;
+  }
+
+  .navbar-nav__adaptive {
+    gap: 59px;
+    padding: 123px 129px 141px;
+  }
+
+  .nav-link__adaptive {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .heading {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .text_margin {
+    margin-left: 77px;
+    margin-right: 77px;
+  }
+
+  .top_text-margin {
+    margin-left: 159px;
+    margin-right: 159px;
+  }
+
+  .top__arrow {
+    margin-top: 76px;
+  }
+
+  .top_svg {
+    width: 61px;
+    height: 33px;
+  }
+
+  .top__img {
+    background-image: url(./assets/images/tablet/MX-Master\ 1.png);
+  }
+
+  .bluetooth {
+    padding-top: 80px;
+    padding-bottom: 3px;
+  }
+
+  .bluetooth__heading {
+    font-size: 150px;
+    line-height: 176px;
+  }
+
+  .bluetooth__img {
+    background-image: url(./assets/images/tablet/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    height: 597px;
+    margin-left: 39px;
+    margin-right: 19px;
+  }
+
+  .info {
+    padding-bottom: 61px;
+  }
+
+  .info__content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+  }
+
+  .info__text {
+    margin-left: 77px;
+    margin-right: 77px;
+  }
+
+  .info__item-heading {
+    margin-bottom: 5px;
+  }
+
+  .info__item {
+    min-height: 170px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .carousel-item[data-item-bg="0"] {
+    background-image: url(./assets/images/tablet/wood.png);
+  }
+
+  .carousel-item[data-item-bg="1"] {
+    background-image: url(./assets/images/tablet/glass.png);
+  }
+
+  .carousel-item[data-item-bg="2"] {
+    background-image: url(./assets/images/tablet/linoleum.png);
+  }
+
+  .carousel-item[data-item-bg="3"] {
+    background-image: url(./assets/images/tablet/cloth.png);
+  }
+
+  .carousel-item[data-item-bg="4"] {
+    background-image: url(./assets/images/tablet/marble.png);
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 75px;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url(./assets/images/tablet/arrow-left.png);
+    width: 15px;
+    height: 26px;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(./assets/images/tablet/arrow-right.png);
+    width: 15px;
+    height: 26px;
+  }
+
+  .info__heading {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 46px 0 0;
+  }
+
+  .carousel-indicators {
+    gap: 30px;
+    margin: 23px 0 22px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators [data-bs-slide-to="0"] {
+    background-image: url(./assets/images/tablet/wood-texture.png);
+  }
+
+  .carousel-indicators [data-bs-slide-to="1"] {
+    background-image: url(./assets/images/tablet/glass-texture.png);
+  }
+
+  .carousel-indicators [data-bs-slide-to="2"] {
+    background-image: url(./assets/images/tablet/linoleum-texture.png);
+  }
+
+  .carousel-indicators [data-bs-slide-to="3"] {
+    background-image: url(./assets/images/tablet/cloth-texture.png);
+  }
+
+  .carousel-indicators [data-bs-slide-to="4"] {
+    background-image: url(./assets/images/tablet/marble-texture.png);
+  }
+
+  .flow {
+    padding-bottom: 498px;
+    padding-left: 64px;
+    padding-right: 65px;
+    background-image: url(./assets/images/tablet/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  }
+
+  .text_flow-p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .flow__ol {
+    display: flex;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
+  .text_flow {
+    width: auto;
+    padding: 8px 21px 4px 28px;
+    border-left: 1px solid #494949;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .text_flow:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .text_flow:last-child {
+    padding-right: 0;
+  }
+
+  .settings {
+    padding-bottom: 70px;
+  }
+
+  .settings__silder {
+    margin: 54px auto 70px;
+  }
+
+  .settings-slider_wrapper {
+    height: 610px;
+    background-size: unset;
+  }
+
+  .carousel-item[data-settings-slider-item-bg="0"] {
+    background-image: url(./assets/images/tablet/f370c2e.png);
+  }
+
+  .carousel-item[data-settings-slider-item-bg="1"] {
+    background-image: url(./assets/images/tablet/fecdd75.png);
+  }
+
+  .carousel-item[data-settings-slider-item-bg="2"] {
+    background-image: url(./assets/images/tablet/b74bcf9.png);
+  }
+
+  .carousel-item[data-settings-slider-item-bg="3"] {
+    background-image: url(./assets/images/tablet/c075726.png);
+  }
+
+  .carousel-item[data-settings-slider-item-bg="4"] {
+    background-image: url(./assets/images/tablet/e987ca8.png);
+  }
+
+  .carousel-item[data-settings-slider-item-bg="5"] {
+    background-image: url(./assets/images/tablet/f8bf6eb.png);
+  }
+
+  .settings-slider_navigation {
+    margin: 50px 0 0;
+    gap: 25px;
+  }
+  .settings-slider_navigation [data-settings-btn] {
+    background-image: unset;
+    background-color: #2F3132;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+
+  .settings__content {
+    margin-left: 64px;
+    margin-right: 65px;
+  }
+
+  .settings__icons {
+    margin-right: 104px;
+    margin-left: 98px;
+  }
+
+  .settings__img {
+    height: 35px;
+  }
+
+  .heading_settings {
+    margin-left: 64px;
+    margin-right: 65px;
+  }
+
+  .text_settings-p {
+    margin-left: 64px;
+    margin-right: 65px;
+  }
+
+  .text_settings {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .text_mouse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mouse__text {
+    padding-left: 67px;
+    padding-right: 64px;
+    padding-bottom: 50px;
+  }
+
+  .mouse__img {
+    height: 549px;
+  }
+
+  .mouse__img_1 {
+    background-image: url(./assets/images/tablet/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.jpg);
+  }
+
+  .mouse__img_2 {
+    background-image: url(./assets/images/tablet/image\ 2.jpg);
+  }
+
+  .footer {
+    font-size: 14px;
+    line-height: 16px;
+    height: 150px;
+    padding-top: 47px;
+  }
+}
+
+@media (min-width: 992px) {
+  .center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+  }
+
+  .heading {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 35px;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .header {
+    background: #2F3132;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header__logo_dark {
+    display: none;
+  }
+
+  .header__logo_white {
+    display: block;
+    width: 150px;
+  }
+
+  .navbar {
+    padding: 0 5px;
+    width: 100%;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    border-bottom: 1px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #E0E1E2;
+  }
+
+  .nav-item {
+    padding-left: 21px;
+    padding-right: 21px;
+    border-right: 1px solid #494949;
+  }
+
+  .nav-item:first-child {
+    padding-left: 0;
+  }
+
+  .nav-item:last-child {
+    padding-right: 0;
+    border: 0;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .header-nav__logo {
+    display: none;
+  }
+
+  .navbar-collapse {
+    padding-top: 0;
+    position: unset;
+  }
+
+  .navbar-nav {
+    display: flex;
+  }
+
+  .navbar-nav__adaptive {
+    display: none;
+  }
+
+  .top {
+    padding-bottom: 56px;
+  }
+
+  .top__img {
+    background-image: url(./assets/images/desktop/MX-Master\ 1.png);
+    margin-top: 0px;
+    height: 671px;
+    padding-top: 60px;
+    margin-bottom: 8px;
+  }
+
+  .top__arrow {
+    margin-top: 49px;
+  }
+
+  .bluetooth__img {
+    height: 427px;
+    background: url(./assets/images/desktop/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png) no-repeat 0 119px, url(./assets/images/desktop/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png) no-repeat right 119px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 1245px;
+    flex-shrink: 0;
+  }
+
+  .center_bluetooth {
+    padding-left: calc(50% - 622px);
+    padding-right: calc(50% - 622px);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 14px;
+  }
+
+  .bluetooth {
+    padding-top: 45px;
+    padding-bottom: 48px;
+  }
+
+  .bluetooth__heading {
+    font-size: 96px;
+    line-height: 112px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .text_margin-p {
+    width: 761px;
+    margin: auto;
+  }
+
+  .bluetooth__heading_day-mini {
+    padding-top: 45px;
+  }
+
+  .bluetooth__heading_day {
+    font-size: 300px;
+    line-height: 352px;
+    padding-left: 82px;
+  }
+
+  .info {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .info__text {
+    width: 765px;
+    margin: auto;
+  }
+
+  .info__item {
+    min-height: 140px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .info__item-heading {
+    margin-bottom: 5px;
+  }
+
+  .info__slider {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+  }
+
+  .carousel-item {
+    height: 45vw;
+  }
+
+  .carousel-item[data-item-bg="0"] {
+    background-image: url(./assets/images/desktop/wood.png);
+  }
+
+  .carousel-item[data-item-bg="1"] {
+    background-image: url(./assets/images/desktop/glass.png);
+  }
+
+  .carousel-item[data-item-bg="2"] {
+    background-image: url(./assets/images/desktop/linoleum.png);
+  }
+
+  .carousel-item[data-item-bg="3"] {
+    background-image: url(./assets/images/desktop/cloth.png);
+  }
+
+  .carousel-item[data-item-bg="4"] {
+    background-image: url(./assets/images/desktop/marble.png);
+  }
+
+  .info__heading {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 38px 0 0;
+  }
+
+  .info__slider_navigation {
+    margin: 15px 0 35px;
+  }
+
+  .carousel-indicators {
+    margin: 0;
+  }
+
+  .text_info {
+    width: 765px;
+    margin: auto;
+  }
+
+  .flow {
+    padding-bottom: 654px;
+    background-image: url(./assets/images/desktop/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  }
+
+  .flow_center {
+    padding-left: calc(50% - 479px);
+    padding-right: calc(50% - 479px);
+  }
+
+  .flow__ol {
+    margin-left: 15px;
+  }
+
+  .settings {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .settings__silder {
+    display: none;
+  }
+
+  .settings__slider-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+  }
+
+  .settings__slider-img-p {
+    overflow: hidden;
+  }
+
+  .settings-slider_wrapper {
+    display: flex;
+  }
+
+  .settings__content {
+    width: 749px;
+    margin: auto;
+  }
+
+  .text_settings-p {
+    width: 958px;
+    margin: auto;
+  }
+
+  .mouse {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mouse_center {
+    padding-left: calc(50% - 655px);
+    padding-right: calc(50% - 655px);
+  }
+
+  .mouse__item {
+    height: 544px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mouse__text_1 {
+    padding-right: 217px;
+    order: 2;
+  }
+
+  .mouse__text_1 .heading {
+    text-align: left;
+  }
+
+  .mouse__text_1 .text {
+    text-align: left;
+  }
+
+  .mouse__text_2 {
+    padding-left: 217px;
+    order: 3;
+  }
+
+  .mouse__text_2 .heading {
+    text-align: right;
+  }
+
+  .mouse__text_2 .text {
+    text-align: right;
+  }
+
+  .mouse__img_1 {
+    order: 1;
+    background-image: url(./assets/images/desktop/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.png);
+  }
+
+  .mouse__img_2 {
+    order: 4;
+    background-image: url(./assets/images/desktop/image\ 2.png);
+  }
+}
+
+@media (min-width: 1282px) {
+  .top__img {
+    margin-top: 20px;
+  }
+
+  .top {
+    padding-bottom: 80px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .bluetooth {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .info {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .carousel-item {
+    height: 573px;
+  }
+
+  .flow {
+    padding-top: 100px;
+    padding-bottom: 870px;
+  }
+
+  .settings {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .settings__slider-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+  }
+
+  .mouse_center {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .mouse__item {
+    width: 625px;
+  }
+
+  .mouse__img_1 {
+    background-image: url(./assets/images/laptop/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.png);
+  }
+
+  .mouse__img_2 {
+    background-image: url(./assets/images/laptop/image\ 2.png);
+  }
+
+}
